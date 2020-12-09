@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Alt Text Helper",
+    "version": "0.1.0",
+    "description": "Reminds you to add alt text when uploading images to twitter.",
+    "permissions": ["activeTab"],
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://twitter.com/*"],
+            "js": ["content_v3.js"]
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'",
+    "web_accessible_resources": [
+        "images/*"
+      ]
+
+
+}
