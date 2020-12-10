@@ -10,9 +10,9 @@ Ultimately, I came to the conclusion that deep learning is best leveraged as a s
 ## Summary of Files
 1. Twitter scraping utils contains the script I used to scrape image tweets from twitter using Tweepy.
 2. The notebooks folder contains the jupyter notebooks I used for analysis and modeling: 
-  * **twitter alt text analysis** includes an analysis of the rate of alt text usage. This depends on SpacyPreprocessor.py and TopicModeling.py
-  * **twimg clustering** is the clustering analysis on a random sample of 500 twitter images from my dataset
-  * **caption model notebooks** are my modeling notebooks, run on Google Colab using a GPU. Big thank you to [Jeff Heaton](https://github.com/jeffheaton) for his deep neural networks resources.
+    * **twitter alt text analysis** includes an analysis of the rate of alt text usage. This depends on SpacyPreprocessor.py and TopicModeling.py
+    * **twimg clustering** is the clustering analysis on a random sample of 500 twitter images from my dataset
+    * **caption model notebooks** are my modeling notebooks, run on Google Colab using a GPU. Big thank you to [Jeff Heaton](https://github.com/jeffheaton) for his deep neural networks resources.
 3. The chrome extension folder contains all files to create the chrome browser extension.
 4. [Twitter alt text Presentation](https://github.com/labb0t/twitter-alt-text/blob/main/twitter_alt_text_presentation.pdf) is a presentation summarizing my entire process and findings.
 
