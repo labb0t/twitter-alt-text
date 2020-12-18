@@ -1,6 +1,6 @@
 def get_recent_tweet_images_and_alt(num_tweets):
 '''
-Given a number of desired records, will return tweet information, including alt text for recent english language tweets.
+Given a number of desired records, will return tweet information, including alt text for recent english language tweets that contain images.
 '''    
     # get the ids of n recent tweets
     tweet_id_list = []
